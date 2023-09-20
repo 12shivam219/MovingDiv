@@ -1,9 +1,11 @@
 import './App.css';
+import { FetchApiData } from './FetchApiData/FetchApiData';
 
 function App() {
+
   return (
     <>
-    wrtwrtwr
+      <FetchApiData />
     </>
   );
 }
