@@ -1,0 +1,43 @@
+.Parent_Block {
+    border: 2px solid skyblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Parent_Block .Child_Block {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    /* top: 0px; */
+    left: 0px;
+    border: 2px solid green;
+    background-color: green;
+}
+
+.Parent_Block .middle_Block {
+    display: flex;
+    align-items: center;
+}
+
+.Parent_Block .middle_Block .Block {
+    width: 500px;
+    height: 500px;
+}
+
+.Parent_Block .btn{
+    height: 60px;
+    width: 500px;
+    align-items: center;
+    background-color: #b8eded;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.Parent_Block .v_Btn {
+    height: 500px;
+    width: 60px;
+}

@@ -1,11 +1,11 @@
 import './App.css';
-import { FetchApiData } from './FetchApiData/FetchApiData';
+import { Block } from './Components/Block/Block';
 
 function App() {
 
   return (
     <>
-      <FetchApiData />
+      <Block />
     </>
   );
 }
