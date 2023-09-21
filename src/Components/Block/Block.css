@@ -1,5 +1,4 @@
 .Parent_Block {
-    border: 2px solid skyblue;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -10,7 +9,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    /* top: 0px; */
+    top: 0px;
     left: 0px;
     border: 2px solid green;
     background-color: green;
